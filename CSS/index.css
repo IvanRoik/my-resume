@@ -156,6 +156,14 @@ body {
    margin: 50px 0 0 40px;
 }
 
+.sidebar-content-skills img {
+   width: 10%;
+}
+
+.sidebar-content-skills li img:first-child {
+   padding-left: 45px;
+}
+
 .sidebar-content-contacts h3,
 .sidebar-content-skills h3 {
    margin-bottom: 8px;
@@ -184,8 +192,28 @@ body {
    font-weight: normal;
    font-size: 14px;
    line-height: 24px;
+   display: flex;
+   flex-direction: row;
 }
 
-.sidebar-content-skills-list li span {
+.first-column-list {
+   width: 50%;
+}
+
+.second-columnlist {
+   width: 50%;
+}
+
+.sidebar-soft-skills-list {
+   padding-left: 13px;
+   color: #fb6d3a;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+.sidebar-content-skills-list li span,
+.sidebar-soft-skills-list li span {
    color: #fff;
 }
